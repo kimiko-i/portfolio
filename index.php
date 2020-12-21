@@ -1,8 +1,8 @@
 <?php
 
 function require_auth() {
-  $AUTH_USER = ENV["BASIC_AUTH_USER"] ;
-  $AUTH_PASSWORD = ENV["BASIC_AUTH_PASSWORD"] ;
+  $AUTH_USER = 'ENV["BASIC_AUTH_USER"]' ;
+  $AUTH_PASSWORD = 'ENV["BASIC_AUTH_PASSWORD"]' ;
   // $AUTH_USER = 'admin';
   // $AUTH_PASS = 'admin';
 
